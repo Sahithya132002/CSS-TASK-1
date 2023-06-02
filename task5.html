@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Task 5 </title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #d5d1d1;
+            }
+
+            li {
+                float: left;
+                border-right: 1px solid blue;
+            }
+
+            li:last-child {
+                border-right: none;
+            }
+
+            li a {
+                display: block;
+                color: blue;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #676666;
+            }
+
+            .active {
+                background-color: #6d6f6f;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> Horizontal Navigation Bar </h2>
+
+        <ul>
+            <li><a class="active" href="#home"> Home </a></li>
+            <li><a href="#java"> Java </a></li>
+            <li><a href="#html"> HTML </a></li>
+            <li><a href="#css"> CSS </a></li>
+        </ul>
+
+    </body>
+</html>
+
+
